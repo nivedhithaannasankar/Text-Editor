@@ -34,7 +34,8 @@ public class App {
                     break;
                 case 3:
                     System.out.println("Enter the text: ");
-                    String text = sc.next();
+                    sc.nextLine();
+                    String text = sc.nextLine();
                     System.out.println("Enter the line number: ");
                     int line = sc.nextInt();
                     notepad.insertLine(line,text);
